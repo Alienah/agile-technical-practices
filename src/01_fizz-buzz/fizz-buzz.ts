@@ -1,7 +1,6 @@
 
-function helloTest(name: string) {
-  console.log(name)
-  return name;
+function fizzbuzz(number: number) {
+  return '';
 };
 
-export default helloTest;
+export default fizzbuzz;
