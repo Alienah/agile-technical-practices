@@ -18,3 +18,10 @@ describe('Normal string behaviour', () => {
 		expect(result).to.equal('4')
 	});
 });
+
+describe('Multiple of 3 behaviour', () => {
+	it('should return fizz when fizzbuzz 3', () => {
+		const result = fizzbuzz(3);
+		expect(result).to.equal('fizz');
+	});
+});
