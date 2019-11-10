@@ -42,7 +42,7 @@ describe('Multiple of 5 behaviour', () => {
 });
 
 describe('Multiple of 3 and 5 behaviour', () => {
-	it('should return FizzBuzz when fizzbuzz 5', () => {
+	it('should return FizzBuzz when fizzbuzz 15', () => {
 		const result = fizzbuzz(15);
 		expect(result).to.equal('FizzBuzz');
 	});
