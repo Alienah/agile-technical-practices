@@ -1,6 +1,6 @@
 
 function fizzbuzz(number: number) {
-  if (number === 3) return 'Fizz';
+  if ((number % 3) === 0) return 'Fizz';
   else return number.toString();
 };
 
