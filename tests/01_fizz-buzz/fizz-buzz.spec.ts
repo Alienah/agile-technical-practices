@@ -12,4 +12,9 @@ describe('Normal string behaviour', () => {
 		const result = fizzbuzz(2);
 		expect(result).to.equal('2')
 	});
+
+	it('should return a string representing number 4 when fizzbuzz 4', () => {
+		const result = fizzbuzz(4);
+		expect(result).to.equal('4')
+	});
 });
