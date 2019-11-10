@@ -20,8 +20,12 @@ describe('Normal string behaviour', () => {
 });
 
 describe('Multiple of 3 behaviour', () => {
-	it('should return fizz when fizzbuzz 3', () => {
+	it('should return Fizz when fizzbuzz 3', () => {
 		const result = fizzbuzz(3);
+		expect(result).to.equal('Fizz');
+	});
+	it('should return Fizz when fizzbuzz 6', () => {
+		const result = fizzbuzz(6);
 		expect(result).to.equal('Fizz');
 	});
 });
