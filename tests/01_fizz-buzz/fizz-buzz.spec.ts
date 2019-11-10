@@ -22,6 +22,6 @@ describe('Normal string behaviour', () => {
 describe('Multiple of 3 behaviour', () => {
 	it('should return fizz when fizzbuzz 3', () => {
 		const result = fizzbuzz(3);
-		expect(result).to.equal('fizz');
+		expect(result).to.equal('Fizz');
 	});
 });
