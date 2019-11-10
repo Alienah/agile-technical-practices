@@ -29,3 +29,10 @@ describe('Multiple of 3 behaviour', () => {
 		expect(result).to.equal('Fizz');
 	});
 });
+
+describe('Multiple of 5 behaviour', () => {
+	it('should return Buzz when fizzbuzz 5', () => {
+		const result = fizzbuzz(5);
+		expect(result).to.equal('Buzz');
+	});
+});
