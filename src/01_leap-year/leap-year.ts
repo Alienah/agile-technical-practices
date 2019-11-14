@@ -1,5 +1,5 @@
 function isLeapYear(number: number) {
-  // return true;
+  return (number % 4) === 0;
 };
 
 export default isLeapYear;
