@@ -46,4 +46,8 @@ describe('Multiple of 3 and 5 behaviour', () => {
 		const result = fizzbuzz(15);
 		expect(result).to.equal('FizzBuzz');
 	});
+	it('should return FizzBuzz when fizzbuzz 30', () => {
+		const result = fizzbuzz(30);
+		expect(result).to.equal('FizzBuzz');
+	});
 });
