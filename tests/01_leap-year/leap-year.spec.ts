@@ -26,3 +26,10 @@ describe('Coomon Year behaviour', () => {
 		expect(leapYear).to.be.false; 
 	}); 
 });
+
+describe('Atypical Coomon Year behaviour', () => {  
+  it('should return false if number is divisible by 100', () => { 
+		const leapYear = isLeapYear(1900);
+		expect(leapYear).to.be.false; 
+	}); 
+});
