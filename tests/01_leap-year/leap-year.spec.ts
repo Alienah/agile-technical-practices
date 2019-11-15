@@ -13,6 +13,13 @@ describe('Leap Year behaviour', () => {
   });
 });
 
+describe('Atypical Leap Year behaviour', () => {
+  it('should return true if number is divisible by 400', () => {
+    const leapYear = isLeapYear(2000);
+    expect(leapYear).to.be.true;
+  });
+});
+
 describe('Coomon Year behaviour', () => {  
   it('should return false if number is not divisible by 4', () => { 
 		const leapYear = isLeapYear(2001);
