@@ -11,5 +11,9 @@ describe('Fibonacci generator', () => {
 		const result = getFibonacci(0);
 		expect(result).to.equal(0); 
 	}); 
+  it('should return number 1 when we introduce position 1', () => { 
+		const result = getFibonacci(1);
+		expect(result).to.equal(1); 
+	}); 
 });
 
