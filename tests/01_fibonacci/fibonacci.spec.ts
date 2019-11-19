@@ -8,12 +8,12 @@ describe('Fibonacci generator', () => {
 		expect(result).to.be.a('number'); 
 	}); 
   it('should return number 0 when we introduce position 0', () => { 
-		const result = getFibonacci(0);
-		expect(result).to.equal(0); 
+		const fibonacciNumber = getFibonacci(0);
+		expect(fibonacciNumber).to.equal(0); 
 	}); 
   it('should return number 1 when we introduce position 1', () => { 
-		const result = getFibonacci(1);
-		expect(result).to.equal(1); 
+		const fibonacciNumber = getFibonacci(1);
+		expect(fibonacciNumber).to.equal(1); 
 	}); 
 });
 
