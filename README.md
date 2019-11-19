@@ -6,11 +6,11 @@ This is a set of __katas__ for learning good technical practices and principles 
 
 ### Steps
 
-* __1 Classic TDD___
+1. __Classic TDD__
 
 ### How to execute it
 
-Just download this repository and launch in the console:
+Just download this repository and install the dependencies with:
 
 ```bash
 npm install
