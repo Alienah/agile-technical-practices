@@ -27,5 +27,17 @@ describe('Fibonacci generator', () => {
 		const fibonacciNumber = getFibonacci(4);
 		expect(fibonacciNumber).to.equal(3); 
 	}); 
+  it('should return number 5 when we introduce position 5', () => { 
+		const fibonacciNumber = getFibonacci(5);
+		expect(fibonacciNumber).to.equal(5); 
+	}); 
+  it('should return number 8 when we introduce position 6', () => { 
+		const fibonacciNumber = getFibonacci(6);
+		expect(fibonacciNumber).to.equal(8); 
+	}); 
+  it('should return number 8 when we introduce position 6', () => { 
+		const fibonacciNumber = getFibonacci(28);
+		expect(fibonacciNumber).to.equal(317811); 
+	}); 
 });
 
