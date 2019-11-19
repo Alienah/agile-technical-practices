@@ -23,5 +23,9 @@ describe('Fibonacci generator', () => {
 		const fibonacciNumber = getFibonacci(3);
 		expect(fibonacciNumber).to.equal(2); 
 	}); 
+  it('should return number 3 when we introduce position 4', () => { 
+		const fibonacciNumber = getFibonacci(4);
+		expect(fibonacciNumber).to.equal(3); 
+	}); 
 });
 
