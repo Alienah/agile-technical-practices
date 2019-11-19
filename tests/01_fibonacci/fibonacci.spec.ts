@@ -15,5 +15,13 @@ describe('Fibonacci generator', () => {
 		const fibonacciNumber = getFibonacci(1);
 		expect(fibonacciNumber).to.equal(1); 
 	}); 
+  it('should return number 1 when we introduce position 2', () => { 
+		const fibonacciNumber = getFibonacci(2);
+		expect(fibonacciNumber).to.equal(1); 
+	}); 
+  it('should return number 2 when we introduce position 3', () => { 
+		const fibonacciNumber = getFibonacci(3);
+		expect(fibonacciNumber).to.equal(2); 
+	}); 
 });
 
