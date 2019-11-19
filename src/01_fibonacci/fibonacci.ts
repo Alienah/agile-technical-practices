@@ -1,6 +1,6 @@
 
 function getFibonacci(number: number): number {
-  return 9;
+  return 0;
 };
 
 export default getFibonacci;
